@@ -1,0 +1,178 @@
+html {font-size: 18px;}
+
+.header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 4.44rem;
+	padding: 0 12%;
+	background-color: white;
+	box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.05);
+		
+}
+
+.header .logo {
+	flex-grow: 1;
+	color: #; /* Kartoha */
+	text-transform: uppercase;
+}
+
+.header li {
+	display: inline;
+	padding-right: 2.22rem;
+	text-transform: uppercase;
+}
+
+/*.header li a{
+	text-decoration: none;
+	color: #01A9DB;
+}*/
+
+@media only screen and (max-width: 550px) {
+	.header {
+		flex-direction: column;
+	}
+	.header .logo {
+		flex-grow: 0;
+	}
+}
+
+.banner {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 50rem;
+	padding: 0 12%;
+	background-size: cover;
+	color: #; /*Belarus*/
+}
+
+.banner h1 {
+	padding-top: 1.11rem;
+	font-size: 4rem;
+	text-transform: uppercase;
+}
+
+@media only screen and (max-width: 750px) {
+	.banner {
+		height: 40rem;
+	}
+	.banner h1 {
+		font-size: 8rem;
+	}
+}
+
+@media only screen and (max-width: 530px) {
+	.banner {
+		height: 30rem;
+	}
+	.banner h1 {
+		font-size: 6rem;
+	}
+}
+
+.journal {
+	padding: 0 25% 4rem 25%;
+	background-color: #01A9DB; /*sodershanie*/
+	color: #FFFFFF; /*цвет текста*/
+}
+
+.photo {
+	width: 75%;
+	padding: 1.11rem;
+	border-radius: 5px;
+	margin: 0 auto 4.44rem auto;
+	background-color: gray;
+}
+
+.photo .image-container {
+		overflow: hidden;
+		margin-bottom: 1.11rem;
+}
+
+.photo .image-container img {
+		width: 100%;
+}
+
+.photo .caption {
+	font-style: italic;
+}
+
+.photo.first {
+	position: relative;
+	top: -2.77rem;
+	margin-bottom: 1.67rem;
+}
+
+.journal p {
+	padding-bottom: 2.77rem;
+	font-size: 1.5rem;
+}
+
+.quote {
+	display: block;
+	padding: 4.44rem 0;
+	margin-bottom: 3.33rem;
+	border-top: 4px solid black;
+	border-bottom: 4px solid black;
+	text-align: center;
+	font-size: 3.55rem;
+	font-weight: 800;
+}
+
+@media only screen and (max-width: 680px) {
+	.journal {
+		padding: 0 10%	4rem 10%;
+	}
+}
+
+footer {
+	display: flex;
+	align-items: center;
+	padding: 0 1%;
+	background-color: black;
+}
+
+footer .image-container {
+	width: 400px;
+}
+
+footer .content {
+	flex-grow: 1;
+	font-style: italic;
+	color: green;
+}
+
+footer .author{
+	color: green;
+}
+
+footer p {
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	color: #1c09b9;
+}
+
+
+
+
+/*a.glo {
+    color: #00c6ff;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    width: 100px;
+    height: 10px;
+    text-decoration: none;
+    text-align: center;
+    margin: 30px 0;
+    display: block;
+    background-image: linear-gradient(to left,transparent,transparent 50%,#00c6ff 50%,#00c6ff);
+    background-position: 100% 0;
+    background-size: 200% 100%;
+    transition: all .25s ease-in;
+    font: 400 18px tahoma;
+    border: 1px solid #00C6FF;*/
+}
